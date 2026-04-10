@@ -1,0 +1,26 @@
+{
+  "overview": "A web app for uploading Fountain-formatted screenplays and conducting a table read with distinct, customizable voices per character. Features Kokoro TTS (82M ONNX model) as primary voice engine, a dedicated Voice Studio tab for creative voice configuration, sticky playback controls with smart skip-back, and auto-scrolling script display.",
+  "features": [
+    "Fountain screenplay upload and formatted display",
+    "Kokoro TTS (onnx-community/Kokoro-82M-v1.0-ONNX) primary voice engine with Web Speech API fallback",
+    "Voice Studio tab with color-coded character cards and per-character voice/pitch/rate/language controls",
+    "Randomize voices (keeps top-level script language)",
+    "Sticky playback controls with smart 2-second skip-back rule",
+    "Click any screenplay line to start playback from that point",
+    "Auto-scroll and highlight tracking current TTS snippet",
+    "Kokoro loading debug/status panel",
+    "Distinct randomized default voices for all characters",
+    "Provider selector for future TTS engine extensibility"
+  ],
+  "category": "productivity",
+  "tags": [
+    "screenplay",
+    "table-read",
+    "tts",
+    "kokoro",
+    "voice",
+    "fountain",
+    "playback"
+  ],
+  "last_updated": "2026-04-10T13:55:22.766Z"
+}
